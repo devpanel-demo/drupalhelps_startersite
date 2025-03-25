@@ -25,6 +25,9 @@
 /web/vendor
 /web/core
 /web/modules/README.txt
+/web/modules/contrib
+/web/themes/contrib
+/web/libraries
 /web/profiles/README.txt
 /web/sites/development.services.yml
 /web/sites/example.settings.local.php
@@ -61,3 +64,5 @@
 /drupal
 /.editorconfig
 /.gitattributes
+*.sql
+*.zip
