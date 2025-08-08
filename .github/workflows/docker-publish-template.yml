@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       webserver:
-        image: devpanel/php:8.2-base
+        image: devpanel/php:8.3-base
         env:
           DP_APP_ID: 'drupalhelps_startersite'
           APP_ROOT: '/var/www/html'
