@@ -38,7 +38,6 @@
         "drupal/dropzonejs": "^2.11",
         "drupal/dxpr_theme": "^6.0",
         "drupal/editor_advanced_link": "^2.3",
-        "drupal/entity_usage": "2.x-dev@dev",
         "drupal/extlink": "^2.0",
         "drupal/file_mdm": "^3.2",
         "drupal/focal_point": "^2.1",
@@ -66,9 +65,6 @@
         "drupal/redirect": "^1.11",
         "drupal/save_edit": "^2.1",
         "drupal/scheduler": "^2.2",
-        "drupal/search_api": "^1.38",
-        "drupal/search_api_db": "^1.38",
-        "drupal/search_api_db_defaults": "^1.38",
         "drupal/section_library": "^2.0",
         "drupal/simple_gmap": "^4.0",
         "drupal/token_filter": "^2.2",
@@ -96,35 +92,35 @@
     "extra": {
         "drupal-scaffold": {
             "locations": {
-                "web-root": "public_html/"
+                "web-root": "web/"
             }
         },
         "installer-paths": {
-            "public_html/core": [
+            "web/core": [
                 "type:drupal-core"
             ],
-            "public_html/libraries/{$name}": [
+            "web/libraries/{$name}": [
                 "type:drupal-library"
             ],
-            "public_html/modules/contrib/{$name}": [
+            "web/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "public_html/profiles/contrib/{$name}": [
+            "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "public_html/themes/contrib/{$name}": [
+            "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
             ],
-            "public_html/modules/custom/{$name}": [
+            "web/modules/custom/{$name}": [
                 "type:drupal-custom-module"
             ],
-            "public_html/profiles/custom/{$name}": [
+            "web/profiles/custom/{$name}": [
                 "type:drupal-custom-profile"
             ],
-            "public_html/themes/custom/{$name}": [
+            "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
             "recipes/{$name}": [
